@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:layout_marginTop="15dip">
+  <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+      <TextView android:text="The motherboard or MB is the main component of a computer, that is, it is the part of the computer that connects everything else together, thanks to the motherboard the different components of a computer can communicate together."
+      android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+      <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+          <ImageView android:layout_height="300dip" android:src="@drawable/mbimg1" android:layout_centerInParent="true" android:layout_width="400dip" android:scaleType="centerCrop" android:layout_marginTop="5dip"></ImageView>
+      </RelativeLayout>
+      <TextView android:text="Motherboards come in a variety of sizes and form, and they all have different layouts. Eventhough they all must carry some main components that will enable the computer to function properly"
+      android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+      <TextView android:text="Socket"
+      android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dip"></TextView>
+      <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5dip">
+          <ImageView android:layout_width="140dip" android:layout_height="140dip" android:src="@drawable/mbimg2" android:scaleType="centerCrop"></ImageView>
+          <TextView android:text="The motherboard's socket is where the CPU is installed, the sockets are made so that only a certain series of CPUs fit in it, and these change in size, shape and the amount of pins (contact points) they have."
+          android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dip"></TextView>
+      </LinearLayout>
+      <TextView android:text="Memory Slots (DIMM)"
+      android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dip"></TextView>
+      <TextView android:text="The computer's RAM is installed in various slots called DIMMs (Dual In-Line Memory Module). These slots, like the CPU's socket, have an amount of pins that permit only the installment of certain memory modules. It is important to know the memoery type and the max memory speed of a motherboard, because an unsupported memory module can be installed but will not permit the computer to power on."
+      android:layout_width="wrap_content"  android:layout_height="wrap_content"  android:layout_marginTop="5dip"></TextView>
+      <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+          <ImageView android:layout_height="180dip" android:src="@drawable/mbimg3" android:layout_width="400dip" android:scaleType="fitCenter" android:layout_centerInParent="true"></ImageView>
+      </RelativeLayout>
+      <TextView android:text="PCI Ports"
+      android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dip"></TextView>
+      <TextView android:text="PCI (Peripheral Component Interconnect) ports come in a few different forms where one can connect various add-on cards into the computer. This add-on card can be some kind of communication card (WiFi, Bluetooth), a Sound Card, a port expansion card (SATA Card, USB 3.0 Card, Serial Port Card, or FireWire Card) or a Video Card."
+	  android:layout_width="wrap_content"  android:layout_height="wrap_content"  android:layout_marginTop="5dip"></TextView>
+      <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5dip">
+          <ImageView android:layout_height="250dip" android:src="@drawable/mbimg4" android:layout_width="300dip" android:scaleType="fitXY" android:layout_centerInParent="true"></ImageView>
+      </RelativeLayout>
+      <TextView android:text="Video cards are installed in the PCI-E x16 Port (E stands for Express); there are various version of this port, so the video card to be installed must be compatible with the port's version. PCI-E x1 and PCI ports are used for the other various cards. A high-end motherboard usually comes with several of these ports, especially PCI-E x16 as this will allow for more than one video card to be installed and set up an Nvidia SLI or AMD CrossFire configuration, more information can be found in the GPU's guide"
+	  android:layout_width="wrap_content"  android:layout_height="wrap_content"  android:layout_marginTop="5dip"></TextView>
+	  <TextView android:text="Back Panel Ports"
+      android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dip"></TextView>
+      <TextView android:text="The motherboard also contains the various external ports found in the back of a computer. These ports include those to connect the Mouse and Keyboard, Ethernet ports to provide internet, Speakers connection, USB Port, and a few others. The amount of ports and the types found on the back panel depend varies trough motherboard but in the picture below are a few common found almost on every days computer."
+	  android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dip"></TextView>
+      <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5dip">
+          <ImageView android:layout_height="250dip" android:src="@drawable/mbimg5" android:layout_width="300dip" android:scaleType="fitXY" android:layout_centerInParent="true"></ImageView>
+      </RelativeLayout>
+      <TextView android:text="SATA Ports"
+      android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dip"></TextView>
+      <TextView android:text="SATA (Serial ATA or Serial Advanced Technology Attachment) ports are used to install storages drives. These can be Hard Disk Drives, Solid States Drives or some kind of Disc Drive (CD/DVD/Blue-Ray). SATA ports currently come in 3 versions, being the newest revision 3.0 with a bandwidth of 6.0Gbit/s. The ports are backward compatible but newer drives (especially SSD Drives) require such high bandwidth that they must only be installed in the newest revision to withstand the bandwidth consumption. Moreover depending on the Chipset the motherboard has and the amount of SATA ports it holds one can create a RAID (Redundant Array of Independent Disks) system with higher storage read/write speeds or capacity"
+	  android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dip"></TextView>
+	  <TextView android:text="Chipset (North Bridge and South Bridge)"
+      android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dip"></TextView>
+      <TextView android:text="The Chipset is a set of two on-board chips that controls the flow of information between the various ports and the CPU. The chipset is one of the most important component of the motherboard because it's capabilities are based on the technology the chipset holds."
+	  android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dip"></TextView>
+	  <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5dip">
+          <ImageView android:layout_height="120dip" android:src="@drawable/mbimg6" android:layout_width="260dip" android:scaleType="fitXY" android:layout_centerInParent="true"></ImageView>
+      </RelativeLayout>
+      <TextView android:text="Most of the motherboards performance is based on the components it is installed on them, but if one would compare motherboard one would look into the expanding capabilities it has. A high-end motherboard will usually bring more ports especially more than 1 PCI-E x16 slot, it would also come with a higher capability of withstanding an overclock, because as CPUs are overclocked the whole system is overclocked and it is up to the motherboard to withstand the new high speeds"
+	  android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dip"></TextView>
+	  <TextView android:text="The motherboard is directly bolted into the Tower Case and because of that it comes in different 'Form Factors' to identify it's size so one can know it will fit a certain casings."
+	  android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dip"></TextView>
+</LinearLayout>
+</ScrollView>

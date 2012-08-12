@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+      <TextView android:text="GPU (Graphics processing unit) is a specialized circuit that accelerate the building of images in application such as video games and and/or other 3D graphics applications. Today's video games highly depends on the GPU, so if you are a hardcore gamer the GPU is the part that you will have to invest the most. Also, if you are in the video editing crew this part and the hard drives are the ones that you have to invest the most."
+      android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+      <RelativeLayout android:layout_width="fill_parent" android:id="@+id/relativeLayout1" android:layout_height="wrap_content">
+          <ImageView android:layout_height="200dip" android:src="@drawable/vgaimg1" android:layout_width="300dip" android:scaleType="centerCrop" android:layout_centerInParent="true"></ImageView>
+      </RelativeLayout>
+      <TextView android:text="GPUs works in a type of socket called interface. Through years this socket have changes. Most of today's computer utilizes PCI Express 2.0 or higher. Video cards has its own memory, the more memory the video card have the better. This because it can retain more resolution images. Today's video cards comes from 128MB to 4,000 MB(4GB). Video card's memory came in different types such as GDDR5 and GDDR3, most of high-end video cards utilizes GDDR5 for it faster memory transfer in comparison to others memory types. Others video card characteristics are the memory Clock and Core clock, in the same chipset of video cards, the higher are these numbers  the better. For example the HD6950 and HD6970 have the same chipset but the 6970 has more memory clock and core clock so the 6970 is better than the 6950, but we can't say that if we compared the 6970 with other video card."
+      android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dip"></TextView>
+      <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5dip" android:orientation="horizontal">
+          <TextView android:text="Video cards have specialized API (application programming interface) to facilitated the work of doing complex works relationated of multimedia stuff. The most famous is Microsoft DirectX. The latest version of DirectX is the 11 and if the card support the latest version of DirectX it support are version so if you want to run the latest games in the market you will have to buy a graphic card that support the latest version of Microsoft DirectX."
+          android:layout_width="200dip" android:layout_height="wrap_content"></TextView>
+          <ImageView android:layout_width="100dip" android:src="@drawable/vgaimg2" android:layout_height="100dip" android:layout_marginTop="50dip"></ImageView>
+      </LinearLayout>
+      <TextView android:text="GPUs are the power consumption monster in computer, so be careful about the power consumption of the video card when you are making your computer if you bought a powerful video card you will need a high-cost power supply."
+      android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dip"></TextView>
+  </LinearLayout>
+</ScrollView>

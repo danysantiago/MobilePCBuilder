@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	
+	<TextView android:textSize="24dip" android:id="@+id/textView1"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:text="Save as:" android:layout_alignParentTop="true"
+		android:layout_centerInParent="true"></TextView>
+		
+	<EditText android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:text="EditText"
+		android:id="@+id/renameEditBox" android:layout_below="@+id/textView1"
+		android:layout_alignLeft="@+id/textView1" android:layout_alignRight="@+id/textView1"
+		android:maxLength="25"></EditText>
+		
+	<Button android:onClick="rename" android:layout_height="wrap_content"
+		android:layout_width="128px" android:text="Done" android:id="@+id/renameButton"
+		android:layout_below="@+id/renameEditBox"
+		android:layout_centerInParent="true"></Button>
+		
+</RelativeLayout>

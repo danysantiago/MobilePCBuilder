@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MoBu</string>
+    <string-array name="hardwarePartList">
+        <item>CPU</item>
+        <item>Motherboard</item>
+        <item>Video Cards</item>
+        <item>RAM</item>
+        <item>PSU</item>
+        <item>Hard Drive</item>
+    </string-array>
+    <string-array name="guideMenuList">
+        <item>CPU (Central Processing Unit)</item>
+        <item>MB (Motherboard)</item>
+        <item>RAM (Random Access Memory)</item>
+        <item>VGA (Video Graphics Acelerator)</item>
+        <item>PSU (Power Supply Unit)</item>
+        <item>HDD (Hard Disk Drive)</item>
+    </string-array>
+        <string name="main_menu_title">MoBu (Mobile PC Builder)</string>
+</resources>

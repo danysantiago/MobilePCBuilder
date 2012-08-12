@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+      <TextView android:text="Random Access Memory or RAM, is a temporary memory used for processing data. Every software running on the computer is said to be on memory, because it is first loaded from the slow mass storage devices, usually a Hard Drive, to the RAM where then it can be rapidly transferred back a forth into the CPU for processing."
+      android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+      <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+          <ImageView android:layout_height="280dip" android:layout_width="280dip" android:src="@drawable/ramimg1" android:layout_centerInParent="true"></ImageView>
+      </RelativeLayout>
+      <TextView android:text="Because it is the RAM that holds all the open programs and services, the bigger the total RAM in the system the more programs can the computer have opened and running without suffering any slowdowns."
+      android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dip"></TextView>
+      <TextView android:text="The RAM usually comes in kits and each kit is composed of 2 to 6 memory sticks or sometimes a single stick. These memory sticks or memory modules are installed in the motherboard DIMM slots. It is very important to know the specifications of the memories being installed because an incompatible memory stick will cause the system to not power on. Memory modules are a component that even though they may fit in the DIMM slot they may not necessarily be compatible and this will prevent the computer from starting. Moreover memories come in either DDR2 or DDR3 (Double Data Rate) which basically denote the generation of the memory, these are not backward compatible."
+      android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dip"></TextView>
+      <TextView android:text="RAM's performance is measured by it's operating speed, which is denoted in cycles per second (Hz). The higher the operating speeds the faster the memory transfers data. However one may only install a memory stick who's operating speed is lower than's the max memory operating speed of the motherboard"
+      android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dip"></TextView>
+      <TextView android:text="Another factor that determines the performance of a memory is if it is dual-channel or triple-channel. Most motherboard are simply dual-channel, these motherboard come with either 2 or 4 DIMM slots, while triple-channel motherboard come with 3 or 6 DIMM slots. double or triple channels means that either 2 or 3 memory sticks are working together to share memory more efficiently, meaning that a triple-channel system has a higher memory bandwith than a double-channel system."
+      android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dip"></TextView>
+      <TextView android:text="The last factor that affects the memory's performance is their timings, simply put the lower the timing the fastest the data is extracted from the memory stick, however higher operating speed memories have higher timings an such timings cannot be compared throughout the various operating speed, but they can do be compared with memories with the same operating speed."
+      android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dip"></TextView>
+  </LinearLayout>
+</ScrollView>

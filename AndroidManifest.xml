@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.dany.mobu"
+      android:versionName="1.2" android:versionCode="3">
+    <uses-sdk android:minSdkVersion="8" />
+    
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+   	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name="StartUpActivity" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="MainMenu" android:screenOrientation="portrait"></activity>
+        <activity android:label="@string/app_name" android:name=".catalog.HardwarePartsMenu" android:screenOrientation="portrait"></activity>
+        <activity android:label="@string/app_name" android:name=".news.News" android:screenOrientation="portrait"></activity>
+        <activity android:label="@string/app_name" android:name=".guide.GuideMenu" android:screenOrientation="portrait"></activity>
+        <activity android:label="@string/app_name" android:name=".builder.CompabilityTest"></activity>
+        <activity android:label="@string/app_name" android:name=".guide.GuideDisplay"></activity>
+        <activity android:label="@string/app_name" android:name=".catalog.HardwarePartsList"></activity>
+        <activity android:label="@string/app_name" android:name=".catalog.SpecsViewer"></activity>
+        <activity android:label="@string/app_name" android:name=".catalog.CatalogSearch"></activity>
+        <activity android:label="@string/app_name" android:name=".builder.HardwarePartsSelection"></activity>
+        <activity android:label="@string/app_name" android:name=".builder.CompabilityTestHelp"></activity>
+        <activity android:label="@string/app_name" android:name=".builder.ConfigsManager"></activity>
+        <activity android:label="Rename:" android:name=".builder.ConfigsNameEntry"  android:theme="@android:style/Theme.Dialog"></activity>
+
+    </application>
+    
+</manifest>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+      <TextView android:text="The power supply unit is the part of the computer that supplies electrical energy to the different components of the computer. The specification that is more important to view at the time to buy a PSU is the wattage, because you need to exceed the minimum wattage to run the computer at it maximum performance.  A very famous type of PSU this days are the modular ones, because of  the easy cable management like the picture shown below. Because the power supply supplies energy to the different components of the computer, they have different types of connectors." 
+      android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+      <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" >
+          <ImageView  android:layout_height="220dip" android:layout_width="300dip" android:src="@drawable/psuimg1" android:layout_centerInParent="true" android:scaleType="centerCrop"></ImageView>
+      </RelativeLayout>
+      <TextView android:text="The most important connectors are 24 pin of the motherboard, the peripherals, the sata connectors, the 6 pin and 8 pin PCI express connectors. Depending of the power supply capabilities you can or you cannot run SLI or Crossfire configuration (multiples video cards), so most of the power supplies come with a sticker that said crossfire and/or SLI Certified. Most of the time if the power supply have two or more 6 pin and/or 8 pin PCI-Express connector they are SLI or crossfire certified. The picture below shown the different (not all) types of connector that a normal PSU use." 
+      android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dip"></TextView>
+      <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5dip">
+          <ImageView  android:layout_height="100dip" android:layout_width="300dip" android:src="@drawable/psuimg2" android:layout_centerInParent="true" android:scaleType="fitXY"></ImageView>
+      </RelativeLayout>
+      <LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5dip">
+          <ImageView android:layout_width="100dip" android:layout_height="150dip" android:src="@drawable/psuimg3" android:layout_marginTop="25dip"></ImageView>
+          <TextView android:layout_height="wrap_content" android:layout_marginLeft="5dip" android:text="Energy efficiency is another important fact about the PSU. Energy always is wasted in heat form, so the less energy the power supply waste the less your bill of electricity will be. Today's PSU come with a sticker that said 80 plus certified, depending the type of 80 plus is the efficiency but all are more than 80% efficiency. The following pictures is an example of the sticker or logo of the 80 plus certified movement." android:layout_width="wrap_content"></TextView>
+      </LinearLayout>
+  </LinearLayout>
+</ScrollView>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content">
+    <LinearLayout android:layout_width="fill_parent" android:orientation="vertical" android:layout_height="fill_parent">
+        <TextView android:text="Building your computer is easy with PC Builder, when started for the first time and if no previous configuration is found a 'Load or Start new' dialog opens, and the you can choose to start a new configuration or load one of the examples. "
+        android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5dip">
+        	<ImageView android:layout_width="wrap_content" android:src="@drawable/pcbulder_help1" android:layout_height="wrap_content" android:layout_centerInParent="true"></ImageView>
+        </RelativeLayout>
+        <TextView android:text="Upon starting a new configuration you are directed to the Motherboard catalog where then you can select the main component of your build. It is the first component chosen because every other components depends on its capabilities"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dip"></TextView>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5dip">
+        	<ImageView android:layout_width="wrap_content" android:src="@drawable/pcbulder_help2" android:layout_height="wrap_content" android:layout_centerInParent="true"></ImageView>
+        </RelativeLayout>
+        <TextView android:text="Once a motherboard is selected or a configuration is loaded you will be directed into the main interface. You will notice the interface has a list and a diagram representing the motherboard and its installed components. Uninstalled components will appear with little opacity while installed component will have full colors. Below the computer's layout is a list with the current components installed."
+        android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dip"></TextView>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5dip">
+        	<ImageView android:layout_width="wrap_content" android:src="@drawable/pcbulder_help3" android:layout_height="wrap_content" android:layout_centerInParent="true"></ImageView>
+        </RelativeLayout>
+        <TextView android:text="You can perform a long click on the list or the button in other to remove the component or view it's specifications."
+        android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dip"></TextView>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5dip">
+        <ImageView android:layout_centerInParent="true" android:src="@drawable/pcbulder_help4" android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageView>
+        </RelativeLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5dip" android:orientation="horizontal">
+	        <ImageView android:layout_width="wrap_content" android:src="@drawable/pcbulder_help5" android:layout_height="wrap_content"></ImageView>
+	        <TextView android:text="To install a new component or replace it simply click the desired component’s button, or click it in the list." 
+	        android:layout_width="wrap_content" android:layout_marginLeft="5dip" android:layout_marginTop="25dip" android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+        <TextView android:text="There are 4 options upon requesting the option menu. 'Load' will take you to a list of saved builds where you can manage the saved configurations, 'Save' simply saves your configuration and 'Clear' deletes the current configuration and takes you back to the 'Load or Star new' dialog."
+        android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dip"></TextView>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5dip">       
+        	<ImageView android:layout_centerInParent="true" android:layout_width="wrap_content" android:src="@drawable/pcbulder_help6" android:layout_height="wrap_content" ></ImageView>
+        </RelativeLayout>
+        <TextView android:text="Loading a builds work the same way as installing a part, simply select the desired configuration and click on 'Select'. You can also long click on the configuration to delete it or rename it."
+        android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dip"></TextView>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5dip">
+        	<ImageView android:layout_centerInParent="true" android:layout_width="wrap_content" android:src="@drawable/pcbulder_help7" android:layout_height="wrap_content" ></ImageView>
+        </RelativeLayout>
+        <TextView android:text="As you start building you computer the interface will be aware of the components you have chosen and will adapt to display only the components that are compatible. For example upon choosing a VGA without a PSU installed no restriction is applied and you can choose any VGA, but if you were to first install a PSU and then a VGA, the VGA's list will only be populated with those that can be sustained by the chosen PSU."
+        android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dip"></TextView>
+    </LinearLayout>	
+</ScrollView>
+

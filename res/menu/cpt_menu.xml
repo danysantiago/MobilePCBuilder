@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Load" android:id="@+id/load_item" android:icon="@drawable/icon_load"></item>
+    <item android:title="Save" android:id="@+id/save_item" android:icon="@drawable/icon_save"></item>
+    <item android:title="Help" android:id="@+id/help_item" android:icon="@drawable/icon_question"></item>
+    <item android:title="Clear" android:id="@+id/clear_item" android:icon="@drawable/icon_dump"></item>
+</menu>

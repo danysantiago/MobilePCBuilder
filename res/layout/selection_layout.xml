@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	
+	<Button android:onClick="Selection" android:id="@+id/buttonselection"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:text="Select" android:layout_alignParentBottom="true"></Button>
+		
+	<ListView android:id="@+id/listselection"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_above="@+id/buttonselection" android:layout_alignLeft="@+id/buttonselection"
+		android:layout_alignRight="@+id/buttonselection"></ListView>
+</RelativeLayout>

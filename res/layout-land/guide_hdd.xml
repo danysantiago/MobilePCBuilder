@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+      <TextView android:text="Hard Disk Drive or HDD is a mass storage device with high storage capacity that holds all the information that is on a computer including personal files and the operative system." 
+      android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+      <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+          <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+              <ImageView android:layout_width="240dip" android:layout_height="180dip" android:src="@drawable/hddimg1" android:scaleType="fitXY"></ImageView>
+              <ImageView android:layout_width="240dip" android:layout_height="180dip" android:src="@drawable/hddimg2" android:scaleType="fitXY"></ImageView>
+          </LinearLayout>
+      </RelativeLayout>
+      <TextView android:text="There are currently two mayor type of hard drives, the older one (left image) is a electromagnetic disk that writes and reads the information in the plates using a head, while the new (right image) solid state drive writes and reads data with electricity in a non-volatile memory chips." 
+      android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dip"></TextView>
+      <TextView android:text="The mayor difference between the two mention drives is the technology they each use. The old Hard Disk Drives are cheaper and can come in large sizes (up to 2TB), while the new Solid State drives are of high cost with small information capacity. However the new Solid State Drives are completely electronic and so can transfer data at much higher speeds than the traditional Hard Disk Drives." 
+      android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dip"></TextView>
+      <TextView android:text="HDD are connected in SATA ports in the motherboard. One may connect various HDD together in other to make a RAID system." 
+      android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dip"></TextView>
+  </LinearLayout>
+</ScrollView>

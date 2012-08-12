@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:background="@drawable/background">
+	<Button android:background="@drawable/cpu_menu_button"
+		android:id="@+id/cpu_menu_button" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:onClick="CpuMenuButton" android:layout_gravity="center_horizontal" android:layout_weight="1"></Button>
+	<Button android:background="@drawable/mb_menu_button"
+		android:layout_width="wrap_content" android:id="@+id/mb_menu_button"
+		android:layout_gravity="center_horizontal" android:layout_height="wrap_content"
+		android:onClick="MbMenuButton" android:layout_weight="1"></Button>
+	<Button android:background="@drawable/vga_menu_button"
+		android:layout_width="wrap_content" android:id="@+id/vga_menu_button"
+		android:layout_gravity="center_horizontal" android:layout_height="wrap_content"
+		android:onClick="VgaMenuButton" android:layout_weight="1"></Button>
+	<Button android:background="@drawable/ram_menu_button"
+		android:layout_width="wrap_content" android:id="@+id/ram_menu_button"
+		android:layout_gravity="center_horizontal" android:layout_height="wrap_content"
+		android:onClick="RamMenuButton" android:layout_weight="1"></Button>
+	<Button android:background="@drawable/psu_menu_button"
+		android:layout_width="wrap_content" android:id="@+id/psu_menu_button"
+		android:layout_gravity="center_horizontal" android:layout_height="wrap_content"
+		android:onClick="PsuMenuButton" android:layout_weight="1"></Button>
+	<Button android:background="@drawable/hdd_menu_button"
+		android:layout_width="wrap_content" android:id="@+id/hdd_menu_button"
+		android:layout_gravity="center_horizontal" android:layout_height="wrap_content"
+		android:onClick="HddMenuButton" android:layout_weight="1"></Button>
+	<Button android:background="@drawable/search_button"
+		android:layout_width="wrap_content" android:id="@+id/search_button"
+		android:layout_height="wrap_content" android:layout_gravity="right"
+		android:onClick="SearchButton" android:layout_weight="1"></Button>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5dip" android:layout_marginTop="5dip">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:text="The Central Processing Unit or CPU is the part of the computer that executes all the necessary instructions for the computer to function."
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12dip">
+			<ImageView android:layout_width="120dip" android:layout_height="260dip" android:scaleType="centerInside" android:src="@drawable/cpuimg"></ImageView>
+			<LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:orientation="vertical">
+				<TextView android:text="CPUs have a huge impact on the computer's performance because they are responsible for the heavy workload done by the necessary computing for the various programs that run in the system."
+				android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="5dip" android:layout_marginTop="15dip"></TextView>
+				<TextView android:text="The CPU is a small component yet it can have multiple cores and in some cases each core can perform multiple task making them handle the multitasking required by today's society." 
+				android:layout_height="wrap_content" android:layout_width="wrap_content"  android:layout_marginLeft="5dip" android:layout_marginTop="10dip"></TextView>
+				<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="The CPUs core per core performance it's clock rate, measured in cycles per seconds (Hz). For example a single core CPU who's clock rate is 2GHz will surely be out performed by one with a 3GHz clock rate." android:layout_marginLeft="5dip" android:layout_marginTop="10dip"></TextView>
+			</LinearLayout>
+		</LinearLayout>
+		<TextView android:text="However when considering between a mutli-core CPU or a single one, a multi-core will out perform a single core chip, that is if the task being performed takes advantages of the multiple cores (which most of todays software does)." 
+		android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="5dip"></TextView>
+		<RelativeLayout android:layout_height="wrap_content" android:layout_width="fill_parent">
+			<ImageView android:scaleType="centerInside" android:layout_height="180dip" android:src="@drawable/cpuimg2" android:layout_width="300dip" android:layout_centerInParent="true"></ImageView>
+		</RelativeLayout>
+		<TextView android:text="Moreover depending of the generation of the CPU and its technology it can also process more than a single thread per core. A software is usually composed of multiples thread being queded for the processor to  execute them and the ability to execute two simultaneous thread is known as Hyper threading. Currently only Intel's CPUs have such technology, but AMD's CPUs high clock rate can usually be compared without the technology." 
+		android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dip"></TextView>
+		<TextView android:text="The CPU is installed in the motherboard and depending of the CPU's amount of pins (contact points) they must be installed in a certain socket, usually this varies on the generations of CPUs not on the models. You can find more information on about CPU's sockets on the motherboard guide." android:layout_width="wrap_content" android:layout_height="wrap_content"  android:layout_marginTop="5dip"></TextView>
+		<TextView android:text="A CPU's performance can be greatly increased if it is overclocked. Overclocking is referred to the process of increasing the CPU's clock speed higher than the one the manufactured has provided. A processor can be locked or unlocked, this is referred to the ease of overclocking the CPU, an unlocked processor is usually more easy to overclock and can reach high clock rates while still being stable. When overclocking a processor one must consider the capabilities of the motherboard to do so, if the CPU is unlocked or not and the CPU's thermal design power (TDP). TDP is important because it means the processor will consume less power at the same time it will be able to dissipate it. Overclocking the CPU takes a big load on it and greatly increase its temperature so a good cooling system is always needed when overclocking." 
+		android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dip"></TextView>
+	</LinearLayout>
+</ScrollView>
